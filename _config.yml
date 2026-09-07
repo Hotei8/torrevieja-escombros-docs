@@ -21,6 +21,12 @@ defaults:
   - scope: {path: ""}
     values: {layout: default, lang: es}
   - scope: {path: "en"}
-    values: {lang: en}
+    values:
+      lang: en
+      description: "Documentation on the illegal dumping of construction and demolition waste (RCD) on a private plot next to homes: regulations, complaint plan, templates and evidence."
+      footer: "Residents' documentation · Not legal advice · September 2026"
   - scope: {path: "ru"}
-    values: {lang: ru}
+    values:
+      lang: ru
+      description: "Документы по незаконному складированию строительного мусора (RCD) на частной полосе у жилых домов: законы, план жалоб, шаблоны, доказательства."
+      footer: "Материалы соседей · Не юридическая консультация · Сентябрь 2026"
