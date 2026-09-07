@@ -1,0 +1,21 @@
+es:
+  - {title: "Inicio", url: "/"}
+  - {title: "Informe completo", url: "/informe.html"}
+  - {title: "Plantillas de denuncia", url: "/plantillas-denuncias.html"}
+  - {title: "Carta burofax", url: "/carta-burofax.html"}
+  - {title: "Registro y Ordenanza", url: "/registro-gestores.html"}
+  - {title: "Ordenanza (PDF)", url: "/evidence/ordenanza-aseo-urbano-torrevieja-BOP-40-2026-02-27.pdf", external: true}
+en:
+  - {title: "Home", url: "/en/"}
+  - {title: "Full report", url: "/en/report.html"}
+  - {title: "Complaint templates", url: "/en/complaint-templates.html"}
+  - {title: "Burofax letter", url: "/en/burofax-letter.html"}
+  - {title: "Registry & by-law", url: "/en/registry-check.html"}
+  - {title: "By-law (PDF)", url: "/evidence/ordenanza-aseo-urbano-torrevieja-BOP-40-2026-02-27.pdf", external: true}
+ru:
+  - {title: "Главная", url: "/ru/"}
+  - {title: "Полный отчёт", url: "/ru/report.html"}
+  - {title: "Шаблоны жалоб", url: "/ru/complaint-templates.html"}
+  - {title: "Письмо burofax", url: "/ru/burofax-letter.html"}
+  - {title: "Реестр и ордонанс", url: "/ru/registry-check.html"}
+  - {title: "Ордонанс (PDF)", url: "/evidence/ordenanza-aseo-urbano-torrevieja-BOP-40-2026-02-27.pdf", external: true}
