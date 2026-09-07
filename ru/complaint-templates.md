@@ -1,21 +1,21 @@
 ---
-title: "Plantillas de denuncia — Ayuntamiento, Generalitat, SEPRONA"
-lang: es
+title: "Шаблоны жалоб (denuncias) — мэрия, Женералитат, SEPRONA"
+lang: ru
 translations:
   es: /plantillas-denuncias.html
   en: /en/complaint-templates.html
   ru: /ru/complaint-templates.html
 ---
 
-Tres textos listos para usar. Lo que hay que rellenar va entre [CORCHETES]. Los tres se presentan **en paralelo** (véase el informe, punto 3.2: el Ayuntamiento no es competente por sí solo para sancionar por escombros ajenos —la multa la impone la Generalitat—, mientras que el Ayuntamiento dicta la orden de limpieza y ejerce la disciplina urbanística).
+Три готовых текста на испанском. Что заполнить — в [КВАДРАТНЫХ СКОБКАХ]. Все три подаются **параллельно** (см. отчёт, п. 3.2: мэрия сама не вправе штрафовать за чужой строительный мусор — штраф налагает Женералитат, а мэрия выдаёт приказ об уборке и ведёт градостроительную дисциплину).
 
-**Antes de presentarlos:** reunir el dosier — fotografías y vídeos con fecha y geolocalización, matrículas de los camiones, referencia catastral de la parcela (sedecatastro.gob.es), captura reciente y fechada del registro de gestores (residuos.gva.es/res_buscaweb). La denuncia no es anónima: por escrito y firmada. La firma de la comunidad de propietarios (a través del presidente) pesa más que la de un solo vecino; lo mejor es presentar ambas.
+**Перед подачей:** собрать досье — фото/видео с датой и геометкой, номера грузовиков, кадастровую ссылку участка (sedecatastro.gob.es), свежий скриншот реестра gestores (residuos.gva.es/res_buscaweb) с датой. Донос не анонимный: письменно, с подписью. Подпись от comunidad de propietarios (presidente) весомее, чем от одного соседа; лучше и то, и другое.
 
 ---
 
 ## 1. Ayuntamiento de Torrevieja — instancia general + solicitud de inspección
 
-**Dónde:** https://torrevieja.sedelectronica.es (se necesita certificado digital o Cl@ve) — trámites «Solicitud de Inspección por Infracción Urbanística» (Urbanismo) e «Instancia General» dirigida a la Concejalía de Aseo Urbano / Medio Ambiente. También cabe presentarlo en papel en el Registro General.
+**Куда:** https://torrevieja.sedelectronica.es (нужен цифровой сертификат или Cl@ve) — трамит «Solicitud de Inspección por Infracción Urbanística» (Urbanismo) и «Instancia General» в адрес Concejalía de Aseo Urbano / Medio Ambiente. Либо бумагой в Registro General.
 
 ---
 
@@ -61,7 +61,7 @@ En Torrevieja, a [FECHA].
 
 ## 2. Generalitat Valenciana — Servicio Territorial de Medio Ambiente (Alicante)
 
-**Dónde:** `stmedioambiente_alicante@gva.es` y/o el registro electrónico (sede.gva.es → Registro Electrónico General; destinatario: Subdirección General de Residuos y Economía Circular / Servicio Territorial de Medio Ambiente – Alicante, C/ Profesor Manuel Sala 2, 03003 Alicante). Tel. 012.
+**Куда:** `stmedioambiente_alicante@gva.es` и/или электронный регистр (sede.gva.es → Registro Electrónico General; адресат — Subdirección General de Residuos y Economía Circular / Servicio Territorial de Medio Ambiente – Alicante, C/ Profesor Manuel Sala 2, 03003 Alicante). Тел. 012.
 
 ---
 
@@ -97,7 +97,7 @@ En Torrevieja, a [FECHA].
 
 ## 3. SEPRONA (Guardia Civil) — comunicación de hechos
 
-**Dónde:** presencialmente en el puesto de la Guardia Civil (en el caso de Torrevieja, los asuntos los lleva el SEPRONA de Guardamar), como denuncia formal; o bien el 062 durante una descarga activa; el formulario en línea https://web.guardiacivil.es/es/colaboracion/form_contacto/medio_ambiente.html sirve como canal de información. El texto es breve: los detalles van en los anexos.
+**Куда:** лично в puesto de la Guardia Civil (для Торревьехи дела ведёт SEPRONA de Guardamar) — формальная denuncia; либо 062 при активной выгрузке; онлайн-форма https://web.guardiacivil.es/es/colaboracion/form_contacto/medio_ambiente.html — как канал информации. Текст короткий — детали в приложениях.
 
 ---
 
@@ -115,7 +115,7 @@ En Torrevieja, a [FECHA].
 
 ---
 
-## Qué hacer después de presentarlas
+## Что после подачи
 
-- Conservar los **números de registro de entrada** de todos los escritos: harán falta para escalar el asunto.
-- Al cabo de aproximadamente un mes sin respuesta, solicitar el estado del expediente; ante la inactividad: AVPT (trámite GVA 19098, si la parcela está en suelo no urbanizable), Síndic de Greuges y, si hay indicios de delito, Fiscalía Provincial de Alicante. Véase el informe, pasos 4 a 7.
+- Сохранить **номера регистрации** всех обращений (número de registro de entrada) — они понадобятся для эскалации.
+- Через ~1 месяц без ответа — запросить состояние дела; при бездействии: AVPT (трамит GVA 19098, если участок в suelo no urbanizable), Síndic de Greuges, при признаках преступления — Fiscalía Provincial de Alicante. См. отчёт, шаги 4–7.

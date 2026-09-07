@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      .lang-switch{position:absolute;top:12px;right:16px;font-size:.9rem;z-index:2}
+      .lang-switch a{color:#fff;opacity:.75;text-decoration:none;padding:.25rem .5rem;border:1px solid rgba(255,255,255,.35);border-radius:.3rem;margin-left:.3rem}
+      .lang-switch a:hover{opacity:1}
+      .lang-switch a.active{opacity:1;background:rgba(255,255,255,.2);font-weight:600}
+      .page-header{position:relative}
+      @media (max-width:42em){.lang-switch{position:static;text-align:center;margin-bottom:1rem}}
+    </style>
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <nav class="lang-switch" aria-label="Idioma">
+        {% assign t = page.translations %}
+        {% if t %}
+          {% if t.es %}<a href="{{ t.es | relative_url }}" class="{% if page.lang == 'es' %}active{% endif %}" hreflang="es">Español</a>{% endif %}
+          {% if t.en %}<a href="{{ t.en | relative_url }}" class="{% if page.lang == 'en' %}active{% endif %}" hreflang="en">English</a>{% endif %}
+          {% if t.ru %}<a href="{{ t.ru | relative_url }}" class="{% if page.lang == 'ru' %}active{% endif %}" hreflang="ru">Русский</a>{% endif %}
+        {% endif %}
+      </nav>
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+    </header>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+      <footer class="site-footer">
+        <span class="site-footer-credits">{{ page.footer | default: site.footer }}</span>
+      </footer>
+    </main>
+  </body>
+</html>

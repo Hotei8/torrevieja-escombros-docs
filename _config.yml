@@ -1,6 +1,7 @@
-title: "Свалка escombros у урбанизации — Торревьеха"
-description: "Документы по незаконному складированию строительного мусора (RCD) на частной полосе у жилой урбанизации: законы, план жалоб, шаблоны, доказательства."
-lang: ru
+title: "Vertido de escombros junto a una urbanización — Torrevieja"
+description: "Documentación sobre el vertido ilegal de residuos de construcción y demolición (RCD) en una parcela privada colindante con viviendas: normativa, plan de denuncias, plantillas y pruebas."
+lang: es
+footer: "Documentación de vecinos · No constituye asesoramiento jurídico · Septiembre 2026"
 theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
@@ -8,6 +9,7 @@ kramdown:
   hard_wrap: false
 plugins:
   - jekyll-relative-links
+  - jekyll-seo-tag
 relative_links:
   enabled: true
   collections: false
@@ -15,3 +17,10 @@ include:
   - evidence
 exclude:
   - README.md
+defaults:
+  - scope: {path: ""}
+    values: {layout: default, lang: es}
+  - scope: {path: "en"}
+    values: {lang: en}
+  - scope: {path: "ru"}
+    values: {lang: ru}

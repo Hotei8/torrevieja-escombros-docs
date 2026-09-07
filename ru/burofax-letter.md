@@ -1,4 +1,11 @@
-# Предупредительное письмо владельцу полосы (burofax)
+---
+title: "Предупредительное письмо владельцу полосы (burofax)"
+lang: ru
+translations:
+  es: /carta-burofax.html
+  en: /en/burofax-letter.html
+  ru: /ru/burofax-letter.html
+---
 
 **Как отправлять:** через Correos как **burofax con certificación de texto y acuse de recibo** — это юридически фиксирует и текст, и факт вручения. Отправитель — comunidad de propietarios в лице президента (лучше утвердить на собрании или хотя бы на заседании совета). Копию письма и квитанции хранить — они лягут в досье для мэрии/Женералитат/SEPRONA.
 

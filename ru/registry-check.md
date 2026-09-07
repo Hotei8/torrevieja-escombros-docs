@@ -1,8 +1,15 @@
-# Проверка реестра gestores de residuos — Торревьеха
+---
+title: "Проверка реестра gestores de residuos — Торревьеха"
+lang: ru
+translations:
+  es: /registro-gestores.html
+  en: /en/registry-check.html
+  ru: /ru/registry-check.html
+---
 
 **Дата проверки:** 2026-09-04 (первичная 2026-09-01 — см. «Исправление» ниже)
 **Источник:** публичный реестр Generalitat Valenciana — https://residuos.gva.es/res_buscaweb/
-**Метод:** поиск по Provincia = Alicante, Municipio = Torrevieja; отдельно по категориям «Residuos NO peligrosos (RNP)» и «Residuos peligrosos (RP)», по каждому типу операции (almacenamiento / tratamiento / eliminación). Скриншоты в этой папке, скрипт: `~/.claude/tools/browser-check/gva-gestores-torrevieja.mjs`.
+**Метод:** поиск по Provincia = Alicante, Municipio = Torrevieja; отдельно по категориям «Residuos NO peligrosos (RNP)» и «Residuos peligrosos (RP)», по каждому типу операции (almacenamiento / tratamiento / eliminación). Скриншоты — в папке `evidence/`.
 
 ## Ключевой вывод
 
@@ -35,7 +42,7 @@
 
 ## Исправление к проверке 2026-09-01
 
-Первый прогон 01.09 показал «Gestores de almacenamiento (RNP) — ноль записей». Повторные прогоны 04.09 (дважды) стабильно показывают **4 установки**. Причина — гонка в автоматизации: форма отправилась до того, как подгрузился список типов операций. Вывод «ноль хранения» был **ошибочным** и удалён; на общий вывод (у полос нет авторизации) это не влияет — все 4 установки находятся в промзоне.
+Первый прогон 01.09 показал «Gestores de almacenamiento (RNP) — ноль записей». Повторные прогоны 04.09 (дважды) стабильно показывают **4 установки**. Причина — ошибка при первой проверке (форма отправилась до того, как подгрузился список типов операций). Вывод «ноль хранения» был **ошибочным** и удалён; на общий вывод (у полос нет авторизации) это не влияет — все 4 установки находятся в промзоне.
 
 ## Формулировка для жалобы (вставлять как есть)
 
